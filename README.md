@@ -1,1 +1,1 @@
-# Desktop-arduino
+This is an arduino project as a little desktop LCD to interact with a computer software.
