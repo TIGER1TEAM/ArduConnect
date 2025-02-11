@@ -1,1 +1,40 @@
-...
+Requirements and systems:
+(The following are required to have a full project as the code was specifically written to work with the following)
+Components:
+Arduino Mega 2560
+Sparkfun Qwiic Mux
+Sparkfun Qwiic White Alphanumeric display (quantity of 4)
+Sparkfun Qwiic Big SerLCD
+Sparkfun Qwiic 128x32 OLED
+Sparkfun Qwiic OLED (official name coming soon)
+Sparkfun Qwiic RTC
+Sparkfun Qwiic NFC/RFID read and write tag
+Sparkfun Qwiic MicroSD card read and writer
+Sparkfun Qwiic micro tempature sensor
+Buzzer (any kind works)
+IR diode
+IR sensor 
+(jumper cables and qwiic cables are required)
+
+Diagram:
+
+[IR diode and sensor]
+	||
+[Arduino]-[Mux]-[Alphanumeric display(4)]
+
+Mux(0-9):
+[0]-
+[1]-
+[2]-
+[3]-
+[4]-
+[5]-
+[6]-
+[7]-
+[8]-
+[9]-
+
+Alphanumeric:
+[DIS1(0x70)]-[DIS2(0x71)]-[DIS3(0x72)]-[DIS4(0x73)]
+
+More info released soon...
