@@ -21,9 +21,19 @@ Diagram:
 [IR diode and sensor]
 	||
 [Arduino]-[Mux]-[Alphanumeric display(4)]
+	|
+[Buzzer]
+
+Qwiic Breakdown:
+Red: 3.3-5V
+Black: GND
+Yellow: SCL
+Blue: SDA
+(This will be plugged directly in to the arduino using the breadboard jumper to Qwiic cable and these ports can be found on the corner of the arduino by the button)
+(Once plugged in, the Qwiic cable will plug into the Mux as shown above)
 
 Mux(0-9):
-[0]-
+[0]-Sparkfun Qwiic LCD
 [1]-
 [2]-
 [3]-
@@ -37,4 +47,27 @@ Mux(0-9):
 Alphanumeric:
 [DIS1(0x70)]-[DIS2(0x71)]-[DIS3(0x72)]-[DIS4(0x73)]
 
-More info released soon...
+Buzzer:
+[PWR/INPUT]-Pin:-
+[GND]-Pin:-
+
+IR Sensor:
+[PWR]-Pin:-
+[GND]-Pin:-
+[DATA]-Pin:-
+
+IR Diode:
+[PWR/INPUT]-Pin:-
+[GND]-Pin:-
+
+
+
+Program info:
+This project will require a software bundled with the code for the arduino itself. The software can be found in the software file.
+Once both are installed, they will work simultaneously. A computer is required. (Windows recommended)
+
+This project is entirely open source for the pourpose of being able to create your own plugins for the software.
+If an app is able to work with the software and you want to add support or features. You can create that at any time.
+This project has no copyright limitations as related to code. You are allowed to modify the software at anytime without limitation.
+
+More info coming soon...
