@@ -34,10 +34,10 @@ Blue: SDA
 
 Mux(0-9):
 [0]-Sparkfun Qwiic LCD
-[1]-
-[2]-
-[3]-
-[4]-
+[1]-Sparkfun NFC
+[2]-Sparkfun Temp
+[3]-Sparkfun RTC
+[4]-Sparkfun 128x32 OLED
 [5]-
 [6]-
 [7]-
