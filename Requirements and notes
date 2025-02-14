@@ -35,35 +35,37 @@ Blue: SDA
 (This will be plugged directly in to the arduino using the breadboard jumper to Qwiic cable and these ports can be found on the corner of the arduino by the button)
 (Once plugged in, the Qwiic cable will plug into the Mux as shown above)
 
-Mux(0-9):
+Mux(0-7):
 [0]-Sparkfun Qwiic LCD
 [1]-Sparkfun NFC
 [2]-Sparkfun Temp
 [3]-Sparkfun RTC
 [4]-Sparkfun 128x32 OLED
 [5]-
-[6]-
-[7]-
-[8]-
-[9]-
-
+[6]-Sparkfun MicroSD
+[7]-Auxilary
 *The auxiliary port can be used for testing or miscellaneous purposes
 
 Alphanumeric:
 [DIS1(0x70)]-[DIS2(0x71)]-[DIS3(0x72)]-[DIS4(0x73)]
 
 Buzzer:
-[PWR/INPUT]-Pin:-
-[GND]-Pin:-
+[PWR/INPUT]-Pin:10
+[GND]-Pin:GND
 
 IR Sensor:
-[PWR]-Pin:-
-[GND]-Pin:-
-[DATA]-Pin:-
+[PWR]-Pin:5V
+[GND]-Pin:GND
+[DATA]-Pin:8
 
 IR Diode:
-[PWR/INPUT]-Pin:-
-[GND]-Pin:-
+[PWR/INPUT]-Pin:12
+[GND]-Pin:GND
+
+Auxiliary PWR,GND,DATA:
+[PWR]-Pin:PWR (3.3V)
+[GND]-Pin:9
+[DATA]-Pin:11
 
 
 
