@@ -1,5 +1,8 @@
 Requirements and systems:
 (The following are required to have a full project as the code was specifically written to work with the following)
+
+(WILL REQUIRE A CERTAIN IR REMOTE FOR BASIC OPERATIONS)
+
 Components:
 Arduino Mega 2560
 Sparkfun Qwiic Mux
